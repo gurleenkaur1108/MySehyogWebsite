@@ -1,0 +1,257 @@
+.colorNav_home {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .options_home {
+    background-color: #f8f8f8;
+    padding-bottom: 6px;
+    padding-right: 20px;
+  }
+  .Mycontainer {
+    /* margin-right: 0 !important;
+    margin-left: 0 !important; */
+    background-color: #f8f8f8;
+  }
+  .Inputstyle_home {
+    width: 500px;
+    padding-left: 18px;
+    border: 1px black solid;
+    border-radius: 10px;
+    outline: none;
+    position: relative;
+    margin-left: 220px;
+    z-index: 0;
+  }
+  .symbol_home {
+    margin-left: -28px;
+    margin-top: 10px;
+    margin-right: 28px;
+    position: absolute;
+    z-index: 10;
+  }
+  .button_home {
+    margin-right: 20px;
+    display: inline;
+    background: white;
+    border: 0.3px solid white;
+    box-shadow: none;
+    border-radius: 4px;
+    color: black;
+    padding-left:18px;
+    padding-right: 18px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 480;
+  }
+  @media screen and (max-width:992px){
+    .button_home{
+      text-align: center;
+    }
+  }
+  /* .btn-primary {
+    margin-right: 20px;
+    display: inline;
+    background: white;
+    border: 0.3px solid white;
+    box-shadow: none;
+    border-radius: 4px;
+    color: black;
+    padding-left:18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 480;
+  } */
+  .button_bold{
+    margin-right: 20px;
+    display: inline;
+    background: white;
+    border: 0.3px white;
+    box-shadow: none;
+    border-radius: 4px;
+    color: black;
+    padding-left:18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 480;
+  }
+  .button_trial {
+
+
+    background: blue;
+    border: 0.3px solid blue;
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    color: white;
+    padding-left:18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 480;
+  }
+  .myToggle_home {
+    display: inline-flex;
+  }
+  .Imagestyle_home {
+    height: 40px;
+    width: 80px;
+    padding-left: 40px;
+  }
+  .imageSymbol_home {
+    height: 25px;
+    width: 25px;
+    padding-right: 5px;
+  }
+  .CaraouselDesign_home {
+    height: 480px;
+    margin-top: 30px;
+  }
+  .cardImageSize_home {
+    height: 80px;
+    width: 80px;
+    display: inline;
+    background: rgba(248, 248, 248, 0.5);
+    border: 0.3px solid rgba(0, 0, 0, 0.28);
+    box-sizing: border-box;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  .line_home {
+    border: 1px solid black;
+  }
+  .lineTitle_home{
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  margin-left: 50px;
+  }
+  .cardDesign_home{
+    width: 20rem;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 36px;
+    height: fit-content;
+  }
+  .Imagestyle_home {
+    margin-left: 40px;
+    height: 40px;
+    width: 130px;
+  }
+  .navbar_link{
+    color:black !important;
+  }
+  /* @media screen and (max-width: 1255px) {
+    .Inputstyle_home {
+      margin-left: 150px;
+    }
+  }
+  @media screen and (max-width: 1168px) {
+    .Inputstyle_home {
+      margin-left: 80px;
+      width: 550px;
+    }
+  }
+  @media screen and (max-width: 1085px) {
+    .Inputstyle_home {
+      margin-left: 45px;
+      width: 480px;
+    }
+    .Imagestyle_home {
+      margin-left: 0px;
+      height: 40px;
+      width: 80px;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .Inputstyle_home {
+      margin-left: 30px;
+      margin-bottom: 6px;
+      width: 59%;
+      display: inline;
+      height: 35px;
+      margin-top: -10px;
+    }
+    .Imagestyle_home {
+      margin-left: 5px;
+      height: 40px;
+      width: 80px;
+    }
+    .myToggle_home {
+      margin-left: 100px;
+      display: block;
+      margin-top: -30px;
+    }
+    .Imagestyle_home {
+      margin-top: -10px;
+      margin-left: 50px;
+      margin-right: 30px;
+    }
+    .CaraouselDesign_home {
+      height: 420px;
+    }
+  }
+  @media screen and (max-width: 711px) {
+    .myToggle_home {
+      margin-left: 50px;
+    }
+    .Imagestyle_home {
+      margin-left: 50px;
+    }
+    .CaraouselDesign_home {
+      height: 400px;
+    }
+  }
+  @media screen and (max-width:658px) {
+    @media screen and (min-width:576px) {
+      .cardImage_home{
+        margin-left: 100px !important;
+        margin-top: -80px !important;
+      }
+      .cardImage2_home{
+        margin-left: -20px !important;
+      }
+      .cardImage3_home{
+        margin-left: 50px !important;
+      }
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .CaraouselDesign_home {
+      height: 330px;
+    }
+    .lineTitle_home{
+      margin-left: 10px;
+    }
+    .Inputstyle_home {
+      margin-left: 0px;
+      margin-bottom: 6px;
+      width: 60%;
+    }
+    .Imagestyle_home {
+      margin-left: 20px;
+    }
+  }
+  @media screen and (max-width: 431px) {
+    .myToggle_home {
+      margin-left: 20px;
+    }
+    .Inputstyle_home {
+      margin-left: 5px;
+      margin-bottom: 6px;
+      width: 64%;
+    }
+    .Imagestyle_home {
+      margin-left: 40px;
+      margin-right: 0px;
+      height: 32px;
+      width: 64px;
+    }
+    .CaraouselDesign_home {
+      height: 280px;
+    }
+  } */

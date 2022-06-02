@@ -1,0 +1,77 @@
+.text-hover-img {
+    margin: 10px auto;
+    width: 100%;
+    min-width: 300px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+  }
+  .text-hover-img img {
+    display: block;
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+    filter: brightness(100%);
+    will-change: transform;
+  }
+  .pp{
+    margin-top: 1%;
+  }
+  @media only screen and (max-width: 720px) {
+
+      .pp {
+         font-size: 8px;
+      }
+
+   }
+   @media only screen and (min-width: 768px) {
+
+    .mob{
+        padding-top: 15%;
+    }
+
+ }
+  .text-hover-img figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2);
+    filter: blur(2px);
+    color: white;
+    opacity: 0;
+    width: 60%;
+    text-align: center;
+  }
+  .text-hover-img figcaption h1 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  .text-hover-img figcaption h1::after {
+    content: " ";
+    width: 0%;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transition: 0.5s;
+  }
+  .text-hover-img figcaption p {
+    line-height: 1.5em;
+  }
+
+  .text-hover-img img {
+    z-index: -1;
+
+
+  }
+  .text-hover-img figcaption {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    filter: blur(0px);
+    z-index: 1;
+  }
+  .text-hover-img figcaption h1::after {
+    width: 100%;
+    left: 0%;
+    bottom: -15%;
+  }
